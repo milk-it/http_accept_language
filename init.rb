@@ -1,1 +1,1 @@
-ActionController::CgiRequest.send :include, HttpAcceptLanguage
+ActionController::Request.send :include, HttpAcceptLanguage
